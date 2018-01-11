@@ -1,0 +1,39 @@
+#portfolio {
+  min-height: 500px;
+  margin: 50px 60px;;
+  text-align: center;
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    padding: 0px 80px;
+    text-align: left;
+  }
+}
+.cube {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0px 20px;
+  margin-top: -250px;
+  img {
+    width: 500px;
+    height: 300px;
+  }
+  h2 {
+    color: #166335;
+  }
+  p {
+    color: #595959;
+  }
+}
+.overlay {
+  background-color: rgba(48, 48, 51, 0.7);
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: 300px;
+  opacity: 1;
+  &:hover {
+    opacity: 0;
+  }
+}

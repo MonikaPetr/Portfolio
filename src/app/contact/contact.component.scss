@@ -1,0 +1,26 @@
+#contact {
+  min-height: 200px;
+  background-color: rgba(48, 48, 51, 1);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+
+  a, .mail {
+    width: 33%;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #000;
+    .email, .fb, .linkedin {
+      text-align: center;
+      font-size: 28px;
+      color: #fff;
+      h3 {
+        font-size: 22px;
+        margin-top: 20px;
+        font-weight: 300;
+        color: #fff;
+      }
+    }
+  }
+}
